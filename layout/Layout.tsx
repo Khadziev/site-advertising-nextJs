@@ -4,7 +4,7 @@ import { Header } from "./Header/Header";
 import { Sidebar } from "./Sidebar/Sidebar";
 import { Footer } from "./Footer/Footer";
 import { FunctionComponent } from "react";
-import { AppContextProvider, IAppContext } from "../app.context";
+import { AppContextProvider, IAppContext } from "../contex/app.context";
 
 const Layout = ({ children }: LayoutProps): JSX.Element => {
   return (
